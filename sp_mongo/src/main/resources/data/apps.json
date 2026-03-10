@@ -1,0 +1,17 @@
+[
+  {
+    "name":"WhatsApp",
+    "developer":"Meta",
+    "sizeMB":85.5
+  },
+  {
+    "name":"Instagram",
+    "developer":"Meta",
+    "sizeMB":120.2
+  },
+  {
+    "name":"Spotify",
+    "developer":"Spotify Ltd",
+    "sizeMB":95.7
+  }
+]

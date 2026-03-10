@@ -1,0 +1,134 @@
+[32m2026-02-20 19:39:04.983[0;39m [INFO] com.wipro.course.Courseservice1Application [main] Starting Courseservice1Application using Java 21.0.9 with PID 4048 (C:\Users\Admin\Desktop\Courseservice-1\target\classes started by Admin in C:\Users\Admin\Desktop\Courseservice-1)
+[32m2026-02-20 19:39:04.992[0;39m [INFO] com.wipro.course.Courseservice1Application [main] No active profile set, falling back to 1 default profile: "default"
+[32m2026-02-20 19:39:06.595[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2026-02-20 19:39:06.912[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 290 ms. Found 1 JPA repository interface.
+[32m2026-02-20 19:39:07.706[0;39m [INFO] org.springframework.boot.tomcat.TomcatWebServer [main] Tomcat initialized with port 8282 (http)
+[32m2026-02-20 19:39:07.729[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2026-02-20 19:39:07.730[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+[32m2026-02-20 19:39:07.885[0;39m [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2714 ms
+[32m2026-02-20 19:39:08.242[0;39m [INFO] org.hibernate.orm.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+[32m2026-02-20 19:39:08.347[0;39m [INFO] org.hibernate.orm.core [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+[32m2026-02-20 19:39:09.239[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2026-02-20 19:39:09.303[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2026-02-20 19:39:09.891[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3700994c
+[32m2026-02-20 19:39:09.895[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2026-02-20 19:39:10.048[0;39m [INFO] org.hibernate.orm.connections.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/course_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: course_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[32m2026-02-20 19:39:11.848[0;39m [INFO] org.hibernate.orm.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2026-02-20 19:39:12.032[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2026-02-20 19:39:12.189[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2026-02-20 19:39:12.422[0;39m [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2026-02-20 19:39:13.023[0;39m [WARN] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[32m2026-02-20 19:39:13.028[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2026-02-20 19:39:13.032[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+[32m2026-02-20 19:39:13.056[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+[32m2026-02-20 19:39:13.072[0;39m [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[32m2026-02-20 19:39:13.099[0;39m [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+[32m2026-02-20 19:39:29.471[0;39m [INFO] com.wipro.course.Courseservice1Application [main] Starting Courseservice1Application using Java 21.0.9 with PID 21788 (C:\Users\Admin\Desktop\Courseservice-1\target\classes started by Admin in C:\Users\Admin\Desktop\Courseservice-1)
+[32m2026-02-20 19:39:29.485[0;39m [INFO] com.wipro.course.Courseservice1Application [main] No active profile set, falling back to 1 default profile: "default"
+[32m2026-02-20 19:39:30.603[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2026-02-20 19:39:30.842[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 221 ms. Found 1 JPA repository interface.
+[32m2026-02-20 19:39:31.526[0;39m [INFO] org.springframework.boot.tomcat.TomcatWebServer [main] Tomcat initialized with port 8282 (http)
+[32m2026-02-20 19:39:31.546[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2026-02-20 19:39:31.548[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+[32m2026-02-20 19:39:31.649[0;39m [INFO] org.springframework.boot.web.context.servlet.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2091 ms
+[32m2026-02-20 19:39:31.978[0;39m [INFO] org.hibernate.orm.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+[32m2026-02-20 19:39:32.078[0;39m [INFO] org.hibernate.orm.core [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+[32m2026-02-20 19:39:32.907[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2026-02-20 19:39:32.986[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2026-02-20 19:39:33.563[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4c7e51
+[32m2026-02-20 19:39:33.566[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2026-02-20 19:39:33.711[0;39m [INFO] org.hibernate.orm.connections.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/course_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: course_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[32m2026-02-20 19:39:35.574[0;39m [INFO] org.hibernate.orm.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2026-02-20 19:39:35.670[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2026-02-20 19:39:35.805[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2026-02-20 19:39:36.006[0;39m [WARN] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2026-02-20 19:39:36.653[0;39m [WARN] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[32m2026-02-20 19:39:36.657[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2026-02-20 19:39:36.660[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+[32m2026-02-20 19:39:36.677[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+[32m2026-02-20 19:39:36.691[0;39m [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[32m2026-02-20 19:39:36.715[0;39m [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8282 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8282 or configure this application to listen on another port.
+
+[32m2026-02-20 19:41:14.051[0;39m [INFO] c.w.c.Courseservice1Application [main] Starting Courseservice1Application using Java 21.0.9 with PID 21012 (C:\Users\Admin\Desktop\Courseservice-1\target\classes started by Admin in C:\Users\Admin\Desktop\Courseservice-1)
+[32m2026-02-20 19:41:14.069[0;39m [INFO] c.w.c.Courseservice1Application [main] No active profile set, falling back to 1 default profile: "default"
+[32m2026-02-20 19:41:15.288[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2026-02-20 19:41:15.499[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interface.
+[32m2026-02-20 19:41:16.147[0;39m [INFO] o.s.b.t.TomcatWebServer [main] Tomcat initialized with port 8282 (http)
+[32m2026-02-20 19:41:16.170[0;39m [INFO] o.a.c.c.StandardService [main] Starting service [Tomcat]
+[32m2026-02-20 19:41:16.171[0;39m [INFO] o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/11.0.18]
+[32m2026-02-20 19:41:16.290[0;39m [INFO] o.s.b.w.c.s.WebApplicationContextInitializer [main] Root WebApplicationContext: initialization completed in 2071 ms
+[32m2026-02-20 19:41:16.609[0;39m [INFO] o.h.o.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+[32m2026-02-20 19:41:16.702[0;39m [INFO] o.h.o.core [main] HHH000001: Hibernate ORM core version 7.2.4.Final
+[32m2026-02-20 19:41:17.463[0;39m [INFO] o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2026-02-20 19:41:17.518[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2026-02-20 19:41:18.074[0;39m [INFO] c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27055a2a
+[32m2026-02-20 19:41:18.078[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2026-02-20 19:41:18.224[0;39m [INFO] o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/course_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: course_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[32m2026-02-20 19:41:19.987[0;39m [INFO] o.h.o.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2026-02-20 19:41:20.087[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2026-02-20 19:41:20.220[0;39m [INFO] o.s.d.j.r.q.QueryEnhancerFactories [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2026-02-20 19:41:20.427[0;39m [WARN] o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2026-02-20 19:41:20.992[0;39m [INFO] o.s.b.t.TomcatWebServer [main] Tomcat started on port 8282 (http) with context path '/'
+[32m2026-02-20 19:41:21.007[0;39m [INFO] c.w.c.Courseservice1Application [main] Started Courseservice1Application in 7.751 seconds (process running for 8.923)

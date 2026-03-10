@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # The URL of your Eureka Server
+    registerWithEureka: true # Whether to register this service with Eureka (default is true)
+    fetchRegistry: true # Whether to fetch the registry from Eureka (default is true)
+    
+      
+
+spring:
+  application:
+    name: CUSTOMER-SERVICE   
